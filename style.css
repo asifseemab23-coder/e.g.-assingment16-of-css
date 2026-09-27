@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    height: 60px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: orange;
+}
+.icons-nav button{
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+}
+.icons-nav{
+    display: flex;
+    gap: 30px;
+}
+.icons-nav i{
+    margin-top: 20px;
+}
+.logo-text span{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-background img{
+    width: 100%;
+}
+.image-background h2{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+.image-background h3{
+     position: absolute;
+    left: 100px;
+    top: 370px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.image-background p{
+     position: absolute;
+    left: 100px;
+    top: 470px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+}
+.image-background button{
+    position: absolute;
+    left: 200px;
+    top: 570px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: orangered;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.top{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.top .first img{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+}
+.top p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.second img{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+}
+.top{
+    display: flex;
+    gap: 100px;
+}
+.third img{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+}
+.fourth img{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+}
+.fifth img{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+}
+.sixth img{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+    width: 70px;
+}
+.logo-text img{
+    width: 70px;
+    margin-top: 5px;
+}
+.logo-text{
+    display: flex;
+   align-items: center;
+}
